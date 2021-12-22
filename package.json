@@ -1,0 +1,27 @@
+{
+  "name": "testcafe-percy",
+  "version": "1.0.0",
+  "description": "Visual Regression with Percy and Testcafe",
+  "main": "index.js",
+  "scripts": {
+    "test:percy": "percy exec -- testcafe chrome ./tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JD1927/testcafe-percy.git"
+  },
+  "keywords": [
+    "Percy",
+    "TestCafe"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JD1927/testcafe-percy/issues"
+  },
+  "homepage": "https://github.com/JD1927/testcafe-percy#readme",
+  "dependencies": {
+    "@percy/testcafe": "^1.0.1",
+    "testcafe": "^1.17.1"
+  }
+}
